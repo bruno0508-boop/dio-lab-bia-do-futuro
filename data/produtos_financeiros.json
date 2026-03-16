@@ -38,5 +38,21 @@
     "rentabilidade": "Variável",
     "aporte_minimo": 100.00,
     "indicado_para": "Perfil arrojado com foco no longo prazo"
+  },
+  {
+    "nome": "Financiamento Imobiliário (SFH)",
+    "categoria": "credito_imobiliario",
+    "risco": "medio_alto",
+    "rentabilidade": "- (TR + 9% a.a.)",
+    "aporte_minimo": 20000.00,
+    "indicado_para": "Aquisição de moradia própria com longo prazo"
+  },
+  {
+    "nome": "Financiamento de Veículo (CDC)",
+    "categoria": "credito_veicular",
+    "risco": "alto",
+    "rentabilidade": "- (1.5% a 2.5% a.m.)",
+    "aporte_minimo": 5000.00,
+    "indicado_para": "Compra de automóvel com parcelamento imediato"
   }
 ]
