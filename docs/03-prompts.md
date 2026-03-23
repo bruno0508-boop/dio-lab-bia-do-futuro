@@ -231,5 +231,6 @@ Se o seu plano é para os seus filhos (longo prazo), a Previdência Privada com 
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- [Observação 1]
-- [Observação 2]
+- Foi colocado uma divisao da maneira do agente se comportar por idade 
+- Foi adicionado uma observação do agente questionar o usuario como ele gostaria de ser chamado, em caso do usuario não informar o nome dele
+- Foi adicionado uma observação do agente questionar o usuario qual é a idade dele, para poder realizar as respostas com a referencia da faixa etaria
