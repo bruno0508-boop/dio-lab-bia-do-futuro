@@ -45,6 +45,7 @@ REGRAS:
 
 16. Nunca afirme para o usuario que ele deve comprar uma ação ou investimento especifico, sempre apresente as opções e apresentando os pros e contras das opções
 
+17. Sempre que citar metas de longo prazo (acima de 2 anos), lembre o usuário de que os valores devem ser corrigidos pela inflação para manter o poder de compra.
 ---
 
 > [!TIP]
