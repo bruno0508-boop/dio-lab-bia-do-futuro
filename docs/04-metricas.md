@@ -43,7 +43,7 @@ Crie testes simples para validar seu agente:
 
 ### Teste 4: Informação inexistente
 - **Pergunta:** "Quanto rende o produto XYZ?"
-- **Resposta esperada:** Agente admite não ter essa informação
+- **Resposta esperada:** Agente admite que produtos de renda variável onde o rendimento depende diretamente da performance das empresas que compõem a carteira do fundo. Diferente da renda fixa, ele não possui uma taxa de retorno definida no momento da compra.
 - **Resultado:** [x] Correto  [ ] Incorreto
 
 ---
@@ -53,10 +53,18 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- Adoção de Termos de Cautela: A transição para uma linguagem baseada em estimativas foi imediata. Agora, o modelo utiliza consistentemente termos como "é estimado", "com base nos atuais rendimentos" e "projeções", evitando afirmações deterministas sobre lucros futuros.
+
+- Contextualização de Risco: O modelo passou a enfatizar que os valores podem aumentar ou diminuir devido às oscilações do mercado, cumprindo a regra de não garantir rentabilidade em ativos variáveis.
+
+- Cruzamento de Dados Silencioso: A integração entre os arquivos enviados (perfil_investidor.json, produtos_financeiros.json) e o conhecimento técnico ocorreu de forma fluida, permitindo alertar sobre a inadequação de produtos de alto risco (como Fundo de Ações) para quem busca reserva de emergência, sem precisar citar explicitamente o nome do arquivo.
+
+- Identidade do Usuário: O modelo respeitou a persona estabelecida nos arquivos (João Silva), mantendo a coerência com os objetivos financeiros descritos.
 
 **O que pode melhorar:**
-- [Liste aqui]
+- Aprofundamento de Cenários: Embora a cautela tenha sido aplicada, o modelo pode detalhar um pouco mais quais fatores de mercado causam essas oscilações (como Selic, inflação ou resultados corporativos) para educar o usuário enquanto mantém a linguagem estimativa.
+
+-Comparativos de Volatilidade: Poderíamos incluir exemplos históricos de oscilação (quedas e altas passadas) para materializar o conceito de que "os valores podem diminuir", tornando o alerta de risco menos abstrato.
 
 ---
 
