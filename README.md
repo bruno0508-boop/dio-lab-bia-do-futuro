@@ -16,8 +16,6 @@ Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots
 
 ### 1. Documentação do Agente
 
-Defina **o que** seu agente faz e **como** ele funciona:
-
 - **Caso de Uso:** Qual problema financeiro ele resolve? (ex: consultoria de investimentos, planejamento de metas, alertas de gastos)
 - **Persona e Tom de Voz:** Como o agente se comporta e se comunica?
 - **Arquitetura:** Fluxo de dados e integração com a base de conhecimento
@@ -28,7 +26,6 @@ Defina **o que** seu agente faz e **como** ele funciona:
 
 ### 2. Base de Conhecimento
 
-Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar seu agente:
 
 | Arquivo | Formato | Descrição |
 |---------|---------|-----------|
@@ -37,14 +34,11 @@ Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alim
 | `perfil_investidor.json` | JSON | Perfil e preferências do cliente |
 | `produtos_financeiros.json` | JSON | Produtos e serviços disponíveis |
 
-Você pode adaptar ou expandir esses dados conforme seu caso de uso.
-
+=
 
 ---
 
 ### 3. Prompts do Agente
-
-Documente os prompts que definem o comportamento do seu agente:
 
 - **System Prompt:** Instruções gerais de comportamento e restrições
 - **Exemplos de Interação:** Cenários de uso com entrada e saída esperada
@@ -55,7 +49,6 @@ Documente os prompts que definem o comportamento do seu agente:
 
 ### 4. Aplicação Funcional
 
-Desenvolva um **protótipo funcional** do seu agente:
 
 - Chatbot interativo (sugestão: Streamlit, Gradio ou similar)
 - Integração com LLM (via API ou modelo local)
@@ -66,7 +59,6 @@ Desenvolva um **protótipo funcional** do seu agente:
 
 ### 5. Avaliação e Métricas
 
-Descreva como você avalia a qualidade do seu agente:
 
 **Métricas Sugeridas:**
 - Precisão/assertividade das respostas
@@ -78,7 +70,6 @@ Descreva como você avalia a qualidade do seu agente:
 
 ### 6. Pitch
 
-Grave um **pitch de 3 minutos** (estilo elevador) apresentando:
 
 - Qual problema seu agente resolve?
 - Como ele funciona na prática?
@@ -89,7 +80,6 @@ Grave um **pitch de 3 minutos** (estilo elevador) apresentando:
 
 ## Ferramentas Sugeridas
 
-Todas as ferramentas abaixo possuem versões gratuitas:
 
 | Categoria | Ferramentas |
 |-----------|-------------|
